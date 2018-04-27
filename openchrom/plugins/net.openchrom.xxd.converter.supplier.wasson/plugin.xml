@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.chemclipse.msd.converter.chromatogramSupplier">
+      <ChromatogramSupplier
+            description="Reads Wasson-ECE Chromatogram Converter Chromatograms."
+            directoryExtension=""
+            exportConverter="net.openchrom.msd.converter.supplier.wasson.core.ChromatogramExportConverter"
+            fileExtension=".wfm"
+            fileName=""
+            filterName="Wasson-ECE Chromatogram Converter Chromatogram (*.wdf)"
+            id="net.openchrom.xxd.converter.supplier.wasson"
+            importConverter="net.openchrom.msd.converter.supplier.wasson.core.ChromatogramImportConverter"
+            importMagicNumberMatcher="net.openchrom.msd.converter.supplier.wasson.core.MagicNumberMatcher"
+            isExportable="false"
+            isImportable="true">
+      </ChromatogramSupplier>      
+   </extension>
+   <extension
+         point="org.eclipse.core.runtime.preferences">
+      <initializer
+            class="net.openchrom.xxd.converter.supplier.wasson.preferences.PreferenceInitializer">
+      </initializer>
+   </extension>
+</plugin>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="net.openchrom.xxd.converter.supplier.wasson.feature"
+      label="Feature"
+      version="1.2.0.qualifier"
+      provider-name="OpenChrom">
+
+   <description url="http://www.openchrom.net">
+      Wasson-ECE Chromatogram Converter
+   </description>
+
+   <copyright url="http://www.openchrom.net">
+      /*******************************************************************************
+ * Copyright (c) 2018 Lablicate GmbH.
+ *
+ * All rights reserved. This program and the accompanying materials
+ * are made available under the terms of the Eclipse Public License v1.0
+ * which accompanies this distribution, and is available at
+ * http://www.eclipse.org/legal/epl-v10.html
+ * Contributors:
+ *
+ * Dr. Philip Wenig - initial API and implementation
+ * R. Chip Wasson - initial API and implementation
+ *******************************************************************************/
+   </copyright>
+
+   <license url="http://www.openchrom.net">
+      /*******************************************************************************
+ * Copyright (c) 2018 Lablicate GmbH.
+ *
+ * All rights reserved. This program and the accompanying materials
+ * are made available under the terms of the Eclipse Public License v1.0
+ * which accompanies this distribution, and is available at
+ * http://www.eclipse.org/legal/epl-v10.html
+ * Contributors:
+ *
+ * Dr. Philip Wenig - initial API and implementation
+ * R. Chip Wasson - initial API and implementation
+ *******************************************************************************/
+   </license>
+
+   <plugin
+         id="net.openchrom.xxd.converter.supplier.wasson"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="net.openchrom.xxd.converter.supplier.wasson.ui"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>
