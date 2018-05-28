@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
       id="net.openchrom.xxd.converter.supplier.wasson.feature"
-      label="Feature"
+      label="Wasson Converter"
       version="1.2.0.qualifier"
       provider-name="OpenChrom">
 
