@@ -5,10 +5,7 @@
          point="org.eclipse.chemclipse.msd.converter.chromatogramSupplier">
       <ChromatogramSupplier
             description="Reads Wasson-ECE Chromatogram Converter Chromatograms."
-            directoryExtension=""
-            exportConverter="org.eclipse.chemclipse.converter.chromatogram.DefaultExportConverter"
             fileExtension=".wfm"
-            fileName=""
             filterName="Wasson-ECE Chromatogram Converter Chromatogram (*.wdf)"
             id="net.openchrom.xxd.converter.supplier.wasson"
             importConverter="net.openchrom.msd.converter.supplier.wasson.core.ChromatogramImportConverter"
