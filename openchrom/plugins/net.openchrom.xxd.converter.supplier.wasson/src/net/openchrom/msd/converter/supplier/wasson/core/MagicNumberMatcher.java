@@ -22,17 +22,6 @@ public class MagicNumberMatcher extends AbstractMagicNumberMatcher implements IM
 	@Override
 	public boolean checkFileFormat(File file) {
 
-		boolean isValidFormat = false;
-		try {
-			if(file != null && file.isFile()) {
-				String name = file.getName().toLowerCase();
-				if(name.endsWith(".wfm")) {
-					isValidFormat = true;
-				}
-			}
-		} catch(Exception e) {
-			// Print no exception.
-		}
-		return isValidFormat;
+		return checkFileExtension(file, ".wfm");
 	}
 }
