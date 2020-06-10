@@ -1,4 +1,5 @@
 Manifest-Version: 1.0
+Automatic-Module-Name: net.openchrom.xxd.converter.supplier.wasson.ui
 Bundle-ManifestVersion: 2
 Bundle-Name: Wasson-ECE Chromatogram Converter UI
 Bundle-SymbolicName: net.openchrom.xxd.converter.supplier.wasson.ui;singleton:=true
