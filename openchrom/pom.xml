@@ -48,7 +48,6 @@
     <nattable-repo.url>http://download.eclipse.org/nattable/releases/1.5.0/repository</nattable-repo.url>
     <ease-repo.url>http://download.eclipse.org/ease/update/release</ease-repo.url>
     <knime-repo.url>http://update.knime.org/analytics-platform/3.3</knime-repo.url>
-    <efxclipse-repo.url>http://download.eclipse.org/efxclipse/updates-released/2.4.0/site</efxclipse-repo.url>
     <egit-repo.url>http://download.eclipse.org/egit/updates</egit-repo.url>
     <!-- ENCODING -->
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -100,11 +99,6 @@
     <repository>
       <id>knime</id>
       <url>${knime-repo.url}</url>
-      <layout>p2</layout>
-    </repository>
-    <repository>
-      <id>efxclipse</id>
-      <url>${efxclipse-repo.url}</url>
       <layout>p2</layout>
     </repository>
     <repository>
